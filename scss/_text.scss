@@ -24,22 +24,49 @@ h2 {
 	font-weight: normal;
 }
 
-nav {
-	font-family: $fontSans;
-	li {
-		background-color: $mid;
-		font-weight: bold;
-		font-size: 1.3em;
-		}
-	a:link {
-		text-decoration: none;
-		color: $dark;
-		}
-}
+header {
+	nav {
+		font-family: $fontSans;
+		li {
+			background-color: $mid;
+			font-weight: bold;
+			font-size: 1.3em;
+			}
+		a:link {
+			text-decoration: none;
+			color: $dark;
+			}
+	}
+}	
 
 section {
 	h1 {
 		background-color: $white;
 		color: $red;
+		font-size: 3em;
+	}
+	h2 {
+		font-family: $fontSans;
+		font-size: 2em;
+		font-weight: bold;
+	}
+	h3 {
+		font-size: 1.6em;
+ 		font-weight: normal;
+ 		letter-spacing: 1px;
+ 	}
+}
+
+footer {
+	font-family: $fontSans;
+	font-size: .7em;
+	h1 {
+		font-size: .8em;
+	}
+	a:link {
+		color: white;
+		font-family: $fontSerif;
+		font-weight: normal;
+		text-decoration: none;
 	}
 }
