@@ -1,0 +1,45 @@
+$dark: #2C3E50;  
+$red: #E74C3C;  
+$white: #ECF0F1;  
+$mid: #3498DB;  
+$light: #2980B9;
+
+$fontSans: Helvetica, Arial, sans-serif;
+$fontSerif: Georgia, serif;
+
+body {
+	color: $white;
+	font-size: medium;
+}
+
+h1 {
+	font-family: $fontSans;
+	text-transform: uppercase;
+	font-size: 4em;
+	clear: both;
+}
+
+h2 {
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+nav {
+	font-family: $fontSans;
+	li {
+		background-color: $mid;
+		font-weight: bold;
+		font-size: 1.3em;
+		}
+	a:link {
+		text-decoration: none;
+		color: $dark;
+		}
+}
+
+section {
+	h1 {
+		background-color: $white;
+		color: $red;
+	}
+}
